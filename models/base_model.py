@@ -15,9 +15,11 @@ class BaseModel:
     def __init__(self, *args, **kwargs):
         """ instantiate  Basemodel class """
 
+        from models import storage
         if not kwargs:
             self.id = str(uuid4())
             self.created_at = self.updated_at = datetime.now()
+            storage.new(self)
         else:
             for key, value in kwargs.items():
                 if key != '__class__':
@@ -39,7 +41,9 @@ class BaseModel:
         updates the public instance attribute
         updated_at with the current datetime
         """
+        from models import storage
         self.updated_at = datetime.now()
+        storage.save()
 
     def to_dict(self):
         """
