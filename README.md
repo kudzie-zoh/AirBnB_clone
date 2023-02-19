@@ -1,5 +1,6 @@
+![65f4a1dd9c51265f49d0](https://user-images.githubusercontent.com/111014832/219918846-e692e609-d9dd-4342-8c6f-ac54183fd48a.png)
 
-# 0x00. AirBnB clone - The console
+# Project: AirBnB clone
 ## Project Description
 - The goal of the project is to deploy on our servers a simple copy of the AirBnB website. 
 - By the end of the project, it will be complete web application composed by:
@@ -15,6 +16,7 @@
 	- Do operations on objects (count, compute stats, etc…)
 	- Update attributes of an object
 	- Destroy an object
+![815046647d23428a14ca](https://user-images.githubusercontent.com/111014832/219919407-250b44e6-1a50-4b26-ab9d-f1567d6acccd.png)
 ### The command interpreter Execution
 - The command interpreter should work on both interactive and non-interactive modes.
 - **In interractive mode, the shell should work like**:  
