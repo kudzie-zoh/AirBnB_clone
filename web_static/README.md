@@ -68,7 +68,7 @@ What you should learn from this project:
 
 
 ### [12. Accessibility](./103-index.html)
-* Improve the page by adding Accessibility support
+* Improve the page by adding Accessibility support.
 
 ---
 
